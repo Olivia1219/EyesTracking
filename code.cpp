@@ -1,4 +1,3 @@
-```
 #將圖片偵測特徵點,並輸出眼睛位置相關資訊至已有紅點資訊文檔中
 import cv2
 import dlib
@@ -127,4 +126,3 @@ def read_directory(directory_name):
         
 read_directory("C:/Users/Lucy/Desktop/Eyesdetect/images")
 cv2.destroyAllWindows()  
-```
